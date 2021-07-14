@@ -1,0 +1,60 @@
+@import './../../style/variables';
+
+.preview-area {
+    grid-area: preview;
+    background: rgb(226, 226, 226);
+    color: #1c1c1c;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: minmax(200px, 300px) 1fr;
+    grid-template-rows: 1fr;
+
+    .details {
+        align-items: center;
+        background: rgb(31, 68, 110);
+        color: white;
+        padding: 1em;
+
+        span{
+            display: block;
+            width: 100%;
+            overflow-wrap: break-word;
+        }
+
+        .name{
+            font-size: 36px;
+            font-weight: 500;
+        }
+
+        .title{
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        .phone{
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 8px;
+        }
+
+        .email{
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 8px;
+        }
+
+        .linkedin{
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        
+    }
+
+    .main-content {
+        padding: 1em;
+    }
+}

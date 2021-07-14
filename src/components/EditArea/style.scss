@@ -1,0 +1,9 @@
+@import './../../style/variables';
+
+.edit-area{
+    background: $raise-1;
+    color: #ffffffcc;
+    grid-area: edit;
+    padding: 1em;
+    overflow-y: scroll;
+}

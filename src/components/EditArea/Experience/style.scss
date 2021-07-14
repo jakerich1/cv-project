@@ -1,0 +1,26 @@
+.experience-area {
+    margin-top: 1em;
+    color: #ffffffcc;
+
+    h2 {
+        font-weight: 300;
+        margin-bottom: 0.5em;
+    }
+
+    .experience-wrap{
+        border: 1px solid #1c445f;
+        border-radius: 8px;
+        padding: 0.5em;
+        padding-top: 1em;
+        margin-bottom: 0.5em;
+
+        .row {
+            display: flex;
+    
+            .col {
+                flex: 1;
+            }
+        }
+    }
+
+}

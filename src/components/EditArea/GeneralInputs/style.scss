@@ -1,0 +1,18 @@
+.general-area{
+    color: #ffffffcc;
+
+    h2{
+        font-weight: 300;
+        margin-bottom: 0.5em;
+    }
+
+    form{
+        .row{
+            display: flex;
+
+            .col{
+                flex: 1;
+            }
+        }
+    }
+}

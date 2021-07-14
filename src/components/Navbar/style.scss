@@ -1,0 +1,13 @@
+@import './../../style/variables';
+
+nav {
+    padding: 1em;
+    background: $raise-1;
+    grid-area: nav;
+
+    h1 {
+        font-weight: 300;
+        color: $primary;
+        font-size: 42px;
+    }
+}

@@ -1,0 +1,49 @@
+.input-group{
+    padding: 0.5em;
+    background: #121212;
+    margin: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    position: relative;
+
+    .title{
+        position: absolute;
+        top: -9px;
+        left: 20px;
+        padding: 4px;
+        background: #121212;
+        border-radius: 6px;
+        border: 1px solid #4bb3f9b6;
+    }
+
+    input{
+        display: block;
+        border: none;
+        background: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 1em;
+        width: 100%;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    textarea{
+        display: block;
+        width: 100%;
+        border: none;
+        background: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 1em;
+
+        &:focus{
+            outline: none;
+        }
+    }
+}
