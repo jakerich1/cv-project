@@ -49,12 +49,21 @@
             margin-bottom: 8px;
             overflow: hidden;
             text-overflow: ellipsis;
-        }
-
-        
+        }  
     }
 
     .main-content {
         padding: 1em;
+
+        .experience{
+            padding: 1em 0;
+            border-bottom: 1px solid black;
+
+            .top{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+        }
     }
 }

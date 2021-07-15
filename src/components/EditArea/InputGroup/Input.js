@@ -9,9 +9,9 @@ class InputGroup extends Component {
 
     textArea(isTextArea){
         if (isTextArea) {
-            return <textarea onChange={this.props.stateEvent} value={this.props.value} name={this.props.name} type={this.props.type} placeholder={`Enter ${this.props.title} here`}></textarea>
+            return <textarea data-arraykey={this.props.arrayKey} onChange={this.props.stateEvent} value={this.props.value} name={this.props.name} type={this.props.type} placeholder={`Enter ${this.props.title} here`}></textarea>
         }
-        return <input onChange={this.props.stateEvent} value={this.props.value} name={this.props.name} type={this.props.type} placeholder={`Enter ${this.props.title} here`}></input>
+        return <input data-arraykey={this.props.arrayKey} onChange={this.props.stateEvent} value={this.props.value} name={this.props.name} type={this.props.type} placeholder={`Enter ${this.props.title} here`}></input>
     }
 
     render() {

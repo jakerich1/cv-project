@@ -1,11 +1,16 @@
 .input-group{
     padding: 0.5em;
     background: #121212;
+    border: 1px solid #121212;
     margin: 4px;
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 8px;
     position: relative;
+
+    &:hover{
+        border: 1px solid #1c445f;
+    }
 
     .title{
         position: absolute;

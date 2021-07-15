@@ -22,8 +22,26 @@ class PreviewArea extends Component {
                   <div>{this.props.details.summary}</div>
                   <br />
                   <h3>Experience</h3>
+                  {this.props.experience.map((item) => (
+                      <div className='experience'>
+                          <div className='top'>
+                              <div>{item.role} - {item.company}</div>
+                              <div>{item.startDate} - {item.endDate}</div>
+                          </div>
+                          <div>{item.summary}</div>
+                      </div>
+                  ))}
                   <br />
                   <h3>Education</h3>
+                  {this.props.education.map((item) => (
+                      <div className='experience'>
+                          <div className='top'>
+                              <div>{item.qualification} - {item.school}</div>
+                              <div>{item.startDate} - {item.endDate}</div>
+                          </div>
+                          <div>{item.summary}</div>
+                      </div>
+                  ))}
               </div>
             </div>
         )
